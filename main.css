@@ -49,8 +49,8 @@ body{
     text-align: center;
     margin: auto;
     background: url(https://emojigraph.org/media/joypixels/birthday-cake_1f382.png) , rgb(96, 197, 255);
-    background-position: 50% 55%;
-    background-size: 30%;
+    background-position: 50% 50%;
+    background-size: 25%;
     background-repeat: no-repeat;
     font-size:150%;
     border: 1%;
@@ -134,4 +134,8 @@ button{
 }
 #box__name{
     display: inline-flex;
+}
+#HBDay{
+    font-size: 40%;
+    text-align:center;
 }
