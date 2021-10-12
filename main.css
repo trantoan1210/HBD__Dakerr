@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family:“Comic Sans MS”, cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(61, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.box{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 50%;
+    position: absolute;
+    /* background-image: ; */
+     background-repeat: no-repeat;
+    background-position:center;
+}
+.background{
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(81, 214, 238, 0.938);
+  height: 10%;}
+.box__item{
+   margin-top: 7vh;
+   padding-top: 2%;
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(46, 185, 228, 0.788);
+}
+.birthday__item--table:hover{
+    background-color: crimson;
+    color: darkgreen;
+}
+.birthday__item--table{
+    width: 35%;
+    height: 70vh;
+    text-align: center;
+    margin: auto;
+    background: url(https://emojigraph.org/media/joypixels/birthday-cake_1f382.png) , rgb(96, 197, 255);
+    background-position: 50% 55%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    font-size:150%;
+    border: 1%;
+    border-style: solid;
+    border-color: lawngreen;
+}
+.recruit{
+   display: none;
+}
+.selection{
+   display: none;
+}
+.hi{
+    display: inline-flex;
+}
+td{
+    height: 20%;
+}
+.background__item{
+    background-color: rgba(61, 153, 228, 0.753);
+    border: 0.5% solid rgb(218, 214, 214);
+    border-radius: 45%;
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+    font-family:“Comic Sans MS”, cursive, sans-serif ;
+    font-size: 100%;
+    color: rgb(236, 255, 255);
+    
+}
+.birthday__item{
+   margin: auto;
+}
+.avatar{
+    height: 9vh;
+    width: 4.5vw;
+    border-radius: 50% ;
+    background: url(avatar.png);
+    position: fixed;
+    right:0.5%;
+    top: 0;
+    background-position: center;
+    background-size: 110%;
+    background-repeat:no-repeat;
+}
+#box__login{
+   
+   position: fixed;
+    background-color: rgba(236, 54, 54, 0.699);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+.login{
+    margin: 10% 30% 40% 30%;
+    background-color: rgba(61, 153, 228, 0.753);
+    height: 40%;
+    width: 40%;
+    border-radius: 7%;
+    font-size: 200%;
+}
+#login__name{
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 120%;
+    background-color: royalblue;
+    text-align: center;
+    font-family: “Comic Sans MS”, cursive, sans-serif;
+}
+button{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    border: black solid 1px;
+    background-color: cadetblue;
+    color: cornsilk;
+    font-family:“Comic Sans MS”, cursive, sans-serif ;
+}
+#box__name{
+    display: inline-flex;
+}
