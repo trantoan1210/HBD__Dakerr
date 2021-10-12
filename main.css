@@ -8,8 +8,8 @@ html,body{
     font-size: 100%;
 }
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 200px;
     position: relative;
     background-color: rgb(61, 255, 255);
     color: rgb(255, 255, 255);
@@ -33,10 +33,10 @@ body{
   background-color: rgba(81, 214, 238, 0.938);
   height: 10%;}
 .box__item{
-   margin-top: 7vh;
+   margin-top: 10vh;
    padding-top: 2%;
    width: 100%;
-   height: 100vh;
+   height: 240%;
    background-color: rgba(46, 185, 228, 0.788);
 }
 .birthday__item--table:hover{
@@ -71,7 +71,7 @@ td{
 }
 .background__item{
     background-color: rgba(61, 153, 228, 0.753);
-    border: 0.5% solid rgb(218, 214, 214);
+    border: 2px solid rgb(218, 214, 214);
     border-radius: 45%;
     width: 30%;
     height: 100%;
